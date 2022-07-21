@@ -1,13 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  background-color: #d6ebe7; 
 }
 
-body {
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    min-height: 100vh;
+h1, 
+h2 {
+  color: #313740;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+
+span {
+  font-family: 'Archivo', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+#finalScore {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+#questionTitle {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#checkAnswer {
+  font-style: italic;
+  color: #4D5159;
 }
