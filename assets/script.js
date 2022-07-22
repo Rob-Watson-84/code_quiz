@@ -86,10 +86,10 @@ var questionArray = [
     },
 ];
 
-// Start timer when "Start Quiz" button is clicked
 var totalTime = 100;
 var questionIndex = 0;
 
+// Start timer when "Start Quiz" button is clicked
 function newQuiz() {
     questionIndex = 0;
     totalTime = 100;
