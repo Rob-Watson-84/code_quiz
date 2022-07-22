@@ -1,6 +1,7 @@
 # Code Quiz Challenge
 
-deployment: 
+deployment: https://rob-watson-84.github.io/code_quiz/
+Github: https://github.com/Rob-Watson-84/code_quiz
 
 ## About
 Created a coding quiz with multiple-choice questions. Utilizing bootstrap, the application should have a clean and responsive interface.
