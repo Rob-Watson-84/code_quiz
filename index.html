@@ -21,9 +21,9 @@
 
 <body>
     <!-- bootstrap being used for formatting -->
-    <div class="container-fluid my-4">
+    <div class="container-fluid">
         <!-- top row for highscore, timer and "Time's Up" message -->
-        <div class="row bg-light justify-content-center ">
+        <div class="row bg-light">
             <div class="col text-left">
                 <a href="#" id="viewHighScore">View High Scores</a>
             </div>
@@ -32,42 +32,42 @@
             <div id="timeUp" class="col text-right" style="display: none;">Time's Up!</div>
         </div>
 
-        <div id="everything" class="row text-left">
+        <div class="row text-left">
             <div class="col-md-3"></div>
             <main class="col-md-8 mt-5">
                 <!-- Start Section -->
-                <div id="start" class="m-2 justify-content-center">
-                    <h1 class="font-weight-bold pl-5 pr-5">Coding Quiz Challenge</h1>
+                <div id="start" class="m-5">
+                    <h1 class="pl-5 pr-5">Coding Quiz Challenge</h1>
                     <p class="p-5">It is time to test your programming knowledge. When you are ready, please click the Start Quiz button. 
                     <br><br>Incorrect answers will penalize your time by 10 seconds!
                     </p>
-                    <button type="button" id="start-quiz-button" class="btn btn-info ml-5 p-3 align-center">Start
+                    <button type="button" id="start-quiz-button" class="btn btn-info align-center ml-5 p-2">Start
                         Quiz</button>
                 </div>
 
                 <!-- Quiz Section -->
                 <div id="questionDiv" style="display: none;">
-                    <p id="questionTitle" class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold"></p>
-                    <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
-                        <p><button id="btn0" class="btn btn-info p-2 btn-lg"></button></p>
-                        <p><button id="btn1" class="btn btn-info p-2 btn-lg"></button></p>
-                        <p><button id="btn2" class="btn btn-info p-2 btn-lg"></button></p>
-                        <p><button id="btn3" class="btn btn-info p-2 btn-lg"></button></p>
+                    <p id="questionTitle" class="pl-5 ml-2 pt-5"></p>
+                    <div class="pl-5 pt-2 pb-3 m-2">
+                        <p><button id="btn0" class="btn btn-info btn-lg p-2"></button></p>
+                        <p><button id="btn1" class="btn btn-info btn-lg p-2"></button></p>
+                        <p><button id="btn2" class="btn btn-info btn-lg p-2"></button></p>
+                        <p><button id="btn3" class="btn btn-info btn-lg p-2"></button></p>
                         <hr id="lineBreak" style="display: none" class="mt-4">
                         <p id="userAnswer" style="display: none;"></p>
                     </div>
                 </div>
 
                 <!-- score section -->
-                <div class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold" id="summary" style="display: none;">
+                <div class="pl-5 ml-2 pt-5" id="summary" style="display: none;">
                     <div class="col-2"></div>
                     <div class="col-8 text-left">
-                        <h2 class="font-weight-bold pt-2 pb-3 m-2">Your final score is <span id="finalScore"></span> !
+                        <h2 class="pt-2 pb-3 m-2 font-weight-bold">Your final score is <span id="finalScore"></span> !
                         </h2>
                         <form>
                             <p class="pt-2 pb-3 m-2">Enter your initials: <input id="userInitials" 
                                 class="form-control pt-2 pb-3 mt-2" type="text">
-                                <button type="submit" id="submitBtn" class="btn btn-info btn-lgmt-3">Submit</button>
+                                <button type="submit" id="submitBtn" class="btn btn-info btn-lg mt-3">Submit</button>
                             </p>
                         </form>
                     </div>
@@ -75,11 +75,11 @@
                 </div>
 
                 <!-- highscores section -->
-                <div id="highScoreSection" class="pl-5 ml-4 pt-5 justify-content-center font-weight-bold"
+                <div id="highScoreSection" class="pl-5 ml-4 pt-5"
                     style="display: none;">
-                    <h2 class="font-weight-bold pt-2 pb-3 mb-2">High Scores</h2>
+                    <h2 class="pt-2 pb-3 mb-2">High Scores</h2>
 
-                    <div id="listOfHighScores" class="list-group list-group-flush pt-2 pb-3 mb-2"></div>
+                    <div id="listOfHighScores" class="list-group list-group-flush pt-2 pb-3"></div>
 
                     <p>
                         <button type="submit" class="btn btn-info mt-3 mr-3" id="goBackBtn">Go Back</button>
